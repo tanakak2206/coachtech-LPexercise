@@ -1,0 +1,59 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header_inner {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.header_left img {
+  width: 100px;
+}
+.header_list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.header_item {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.top {
+  position: relative;
+}
+.top img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 60%;
+}
+.top_inner {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.top_title {
+  color: #ac1593;
+  font-family: 'Indie Flower' 、筆記体;
+  font-size: 50px;
+  padding: 0 0 50px 0;
+  line-height: 150%;
+}
+.top_title span {
+  color: #00CED1;
+}
+.top_pickup {
+  color: #ac1593;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.top_pickup span {
+  color: #00CED1;
+}
+.top_text {
+  font-size: 14px;
+  line-height: 150%;
+}
